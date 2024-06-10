@@ -1,0 +1,12 @@
+/* Initial hidden state for lazy sections */
+p{
+    font-size: 200px;
+}
+.lazy {
+    opacity: 0;
+  }
+  
+  /* Style for the appearance animation (optional) */
+  .lazy.show {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;  }
